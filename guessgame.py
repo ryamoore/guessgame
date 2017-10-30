@@ -10,4 +10,7 @@ MIN = 1
 MAX = 20
 
 targetNumber = random.randint(MIN, MAX)
-print(targetNumber)
+
+prompt = "Please guess a number from " + str(MIN) + " to " + str(MAX) + ": "
+guess= int(input(prompt))
+print(guess)
